@@ -1,0 +1,20 @@
+[
+    {
+        "label": "report",
+        "kind": 2,
+        "importPath": "laxical",
+        "description": "laxical",
+        "peekOfCode": "def report(line, where, message):\n    print(f\"[{line} line] Error, {where} : {message}\")\n    hadError = True\ndef error(line, message):\n    report(line, \"\", message)",
+        "detail": "laxical",
+        "documentation": {}
+    },
+    {
+        "label": "error",
+        "kind": 2,
+        "importPath": "laxical",
+        "description": "laxical",
+        "peekOfCode": "def error(line, message):\n    report(line, \"\", message)",
+        "detail": "laxical",
+        "documentation": {}
+    }
+]
